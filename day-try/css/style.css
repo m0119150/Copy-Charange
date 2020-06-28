@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@media screen and (min-width:481px) {
+  /*画面幅が481px以上の時*/
+  .wrapper {
+    text-align: center;
+    background-color: white;
+    color: #1c3333;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  .del {
+    float: left;
+    padding: 5px 200px 5px 200px;
+    margin: 0;
+  }
+
+  .nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 17px 50px 17px 50px;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  .img1 {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-right: 2em;
+  }
+
+  .about p {
+
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .about {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .coss {
+
+  }
+
+  .coss-img-1 {
+    height: 200px;
+    width: auto;
+  }
+
+  .coss-first {
+    float: left;
+    margin-left: 4%;
+    margin-right: 2%;
+  }
+
+  .coss-img-2 {
+    height: 200px;
+    width: auto;
+  }
+
+  .coss-second {
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .coss-img-3 {
+    height: 200px;
+    width: auto;
+  }
+
+  .coss-third {
+    float: left;
+    margin-left: 2%;
+    margin-right: 4%;
+  }
+
+  .coss {
+    margin-left: 10%;
+    margin-right: 10%
+  }
+
+  .mon {
+    font-size: small;
+    margin: 0;
+  }
+
+  input {
+    padding: 7px 130px 7px 130px;
+    border-radius: 20px;
+    border: gainsboro;
+    border-style: solid;
+  }
+
+  .placeholder {
+    text-align: left;
+  }
+
+  .buttan {
+    background-color: lightcoral;
+    color: white;
+    padding: 10px 100px 10px 100px;
+    display: inline;
+    margin-bottom: 100px;
+    border-radius: 5px;
+  }
+
+  .enpty {
+    padding: 13px;
+  }
+
+  .copyright {
+    border-top-style: solid;
+    border-top-color: gainsboro;
+    margin: 100px;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width:480px){
+  /*画面幅が480pxまでの時*/
+  .img1 {
+    display: none;
+  }
+
+.del{
+  background-color: darkorange;
+}
+}
+
