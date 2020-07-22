@@ -1,0 +1,28 @@
+#header{
+	background-color:yellow;
+}
+#nav{
+	background-color:blue;
+}
+#main{
+	background-color:cyan;
+}
+#footer{
+	background-color:orange;
+}
+
+#container{
+	width:900px;
+	margin:0 auto 0 auto;
+}
+#nav{
+	width:190px
+	float:left;
+}
+#main{
+	width:700px;
+	float:right;
+}
+#footer{
+	clear:both;
+}
