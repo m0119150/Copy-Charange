@@ -1,0 +1,59 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#slide{
+  position: relative;
+  width: 1200px;
+}
+
+#slide #btn-l{
+  position: absolute;
+  left: 0;
+  top: 173px;
+}
+
+#slide #btn-r{
+  position: absolute;
+  right: 0;
+  top: 173px;
+}
+#Current-location{
+  width: 300px;
+  height: 40px;
+  border:red;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 3px 2px;
+}
+
+.hiden{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: whitesmoke;
+  margin: 0 10px;
+  margin-top: 3px;
+
+}
+
+.red{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 10px;
+  margin-top: 3px;
+}
+
+
+li{
+  display: inline-block;
+}
+ul{
+  padding: 0;
+}
+
+

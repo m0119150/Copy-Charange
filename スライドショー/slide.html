@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>slide</title>
+  <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+
+<div id="slide">
+    <img id="main-image" src="images/image1.jpg" alt="#" style="display: inline">
+    <img src="images/図1.png" alt="" id="btn-r">
+    <img src="images/図2.png" alt="" id="btn-l">
+</div>
+  <div id="Current-location">
+    <ul>
+    <li id="btn" class="hiden"></li>
+    <li class="hiden"></li>
+    <li class="hiden"></li>
+    <li class="hiden"></li>
+  </ul>
+  </div>
+
+<div id="j">
+  <p>j</p>
+</div>
+
+<script>
+  'use strict';
+  const images = ['images/image1.jpg','images/image2.jpg','images/image3.jpeg','images/image4.jpg'];
+
+  let current = 0;
+
+
+
+
+  function changeImage(num) {
+    if (current + num >=0 && current + num < images.length) {
+      current += num;
+      document.getElementById('main-image').src = images[current];
+    }
+    else if (current+num >=images.length) {
+      changeImage(-3);
+    }
+    else if (current+num <= 0){
+      changeImage(3);
+    }
+  };
+
+
+document.getElementById('btn-l').onclick = function () {
+  changeImage(-1);
+};
+
+  document.getElementById('btn-r').onclick = function () {
+    changeImage(1);
+  };
+
+  document.getElementById('j').onclick = function() {
+    document.getElementById('j').textContent = 'usao';
+  }
+
+
+
+</script>
+</body>
+</html>
